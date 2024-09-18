@@ -82,19 +82,6 @@ h3 {
     width: 100%;
 }
 
-.order-name {
-    border: 1px solid #e4e5e6;
-    border-radius: 8px;
-    color: #1d1d1d;
-    font-family: Open Sans, sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    height: 30px;
-    margin-bottom: 15px;
-    padding: 0 15px;
-    width: 100%;
-}
-
 input {
     outline: none;
     line-height: inherit;
@@ -127,17 +114,6 @@ input {
     line-height: 14px;
     padding-left: 13px;
     width: 100%;
-}
-
-.inputWithArrow .arrow-down {
-    border-color: #343a40 #0000 #0000;
-    border-style: solid;
-    border-width: 5px 4px 0;
-    height: 0;
-    left: 95%;
-    position: absolute;
-    top: 45%;
-    width: 0;
 }
 
 svg:not(:root) {

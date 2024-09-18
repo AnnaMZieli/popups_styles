@@ -112,34 +112,6 @@ input {
     width: 100%;
 }
 
-.calendar-deadline {
-    border-radius: 5px;
-    height: 30px;
-    max-height: 30px;
-    position: relative;
-}
-
-.calendar-deadline .calender-data {
-    background-color: #fff !important;
-    border: 1px solid #e4e5e6 !important;
-    border-radius: 8px;
-    cursor: pointer;
-    line-height: 14px;
-    padding-left: 13px;
-    width: 100%;
-}
-
-.calendar-deadline .arrow-down {
-    border-color: #343a40 #0000 #0000;
-    border-style: solid;
-    border-width: 5px 4px 0;
-    height: 0;
-    left: 95%;
-    position: absolute;
-    top: 45%;
-    width: 0;
-}
-
 svg:not(:root) {
     overflow: hidden;
 }
