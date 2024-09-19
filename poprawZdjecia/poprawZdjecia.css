@@ -120,7 +120,7 @@ input {
     display: table;
     border-collapse: separate;
     width: 100%;
-    margin-top: -140px;
+    margin-top: -160px;
 }
 
 .inputWithArrow {
@@ -177,7 +177,7 @@ h4 {
     color: #303a46;
     font-family: Open Sans, sans-serif;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 20px;
     margin: 4px 0;
 }
