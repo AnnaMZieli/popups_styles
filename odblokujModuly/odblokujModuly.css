@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #1d1d1d;
+    font-family: Open Sans, sans-serif;
+    font-size: 13px;
+    line-height: 1.428571429;
+}
+
+*:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    line-height: 1.428571429;
+    font-size: 13px;
+}
+
+.bg-blur.active {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-blur {
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    background: #00000040;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 10;
+}
+
+.counter-popup {
+    height: 330px;
+    width: 400px;
+    padding: 40px 32px 30px;
+    align-items: center;
+    backdrop-filter: blur(7.8px);
+    background: #fffc;
+    border: 1px solid #e4e5e6;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px #0000001a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.upper-part-popup {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h3 {
+    color: #303a46;
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 25px !important;
+    text-align: center;
+}
+
+.middle-part-popup {
+    margin-top: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+input {
+    outline: none;
+    line-height: inherit;
+    font: inherit;
+    margin: 0;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+}
+
+.inputWithArrow {
+    border-radius: 5px;
+    height: 30px;
+    max-height: 30px;
+    position: relative;
+}
+
+.inputWithArrow .chooseData {
+    background-color: #fff !important;
+    border: 1px solid #e4e5e6 !important;
+    border-radius: 8px;
+    cursor: pointer;
+    line-height: 14px;
+    padding-left: 13px;
+    width: 100%;
+}
+
+.inputWithArrow .arrow-down {
+    border-color: #343a40 #0000 #0000;
+    border-style: solid;
+    border-width: 5px 4px 0;
+    height: 0;
+    left: 95%;
+    position: absolute;
+    top: 45%;
+    width: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.buttons {
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 30px !important;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    transition: .2s ease-out !important;
+    font: inherit;
+    margin: 0;
+}
+
+.button.cancel {
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    color: #212529;
+    border-radius: 50px;
+    font-family: Open Sans, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    height: 45px;
+    outline: none;
+    width: 90px;
+}
+
+.button.unlockPart {
+    background-color: #1C84C6;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-family: Open Sans, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    height: 45px;
+    outline: none;
+    width: 150px;
+}
+
+.button.unlockAll {
+    background-color: #1ab394;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-family: Open Sans, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    height: 45px;
+    outline: none;
+    width: 100px;
+}
