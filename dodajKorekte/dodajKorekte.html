@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="dodajKorekte.css">
+    </head>
+    <body>
+        <div id="root">
+            <div id="mod_ecommerce" class="App">
+                <div class="Toastify">
+
+                </div>
+                <div class="main-app-component">
+                    <div class="content-section">
+                        <div class="bg-blur active">
+                            <div><div class="counter-popup">
+                                <div class="upper-part-popup">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
+                                        <path d="M23.5 47C29.7326 47 35.7099 44.5241 40.117 40.117C44.5241 35.7099 47 29.7326 47 23.5C47 17.2674 44.5241 11.2901 40.117 6.88299C35.7099 2.47589 29.7326 0 23.5 0C17.2674 0 11.2901 2.47589 6.88299 6.88299C2.47589 11.2901 0 17.2674 0 23.5C0 29.7326 2.47589 35.7099 6.88299 40.117C11.2901 44.5241 17.2674 47 23.5 47ZM21.2969 31.5781V25.7031H15.4219C14.201 25.7031 13.2188 24.7209 13.2188 23.5C13.2188 22.2791 14.201 21.2969 15.4219 21.2969H21.2969V15.4219C21.2969 14.201 22.2791 13.2188 23.5 13.2188C24.7209 13.2188 25.7031 14.201 25.7031 15.4219V21.2969H31.5781C32.799 21.2969 33.7812 22.2791 33.7812 23.5C33.7812 24.7209 32.799 25.7031 31.5781 25.7031H25.7031V31.5781C25.7031 32.799 24.7209 33.7812 23.5 33.7812C22.2791 33.7812 21.2969 32.799 21.2969 31.5781Z" fill="#303A46"/>
+                                        </svg>
+                                    <h3>Dodaj korektę</h3>
+                                    </div>
+                                    <div class="middle-part-popup">
+                                        <div class="leftOne">
+                                            <input class="order-name" placeholder="Wpisz pełną nazwę" value="">
+                                            <div class="twoInputs">
+                                                <input class="smallInput" placeholder="Od" value="">
+                                                <input class="smallInput" placeholder="Godzina" value="">
+                                            </div>
+                                            <div class="twoInputs">
+                                                <input class="smallInput" placeholder="Do" value="">
+                                                <input class="smallInput" placeholder="Godzina" value="">
+                                            </div>
+                                            <div class="input-group">
+                                                <div class="inputWithArrow ">
+                                                    <input class="chooseData" placeholder="Wybierz zasięg działów" readonly="" value="" style="height: 30px;">
+                                                    <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg" class="arrow-down">
+                                                        <path d="M2.86533 4.55531L0.553711 0.195312H1.37635H3.23138L2.49929 0.196398L4.40367 0.195312H5.17696L2.86533 4.55531Z" fill="#FFB800">
+                                                            
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="input-group"></div>
+                                                <div class="inputWithArrow2">
+                                                    <input class="chooseData" placeholder="Wybierz ograniczenie rolami" readonly="" value="" style="height: 30px;">
+                                                    <svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg" class="arrow-down">
+                                                        <path d="M2.86533 4.55531L0.553711 0.195312H1.37635H3.23138L2.49929 0.196398L4.40367 0.195312H5.17696L2.86533 4.55531Z" fill="#FFB800">
+                                                            
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="middleOne">
+                                                <h6>Zasięg edycji danych produktu</h6>
+                                                <label class="container">Produkt
+                                                    <input type="checkbox" checked="checked">
+                                                        <span class="checkmark">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                            </svg>
+                                                        </span>
+                                                  </label>
+                                                  <label class="container">Opis
+                                                    <input type="checkbox" checked="checked">
+                                                        <span class="checkmark">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                            </svg>
+                                                        </span>
+                                                  </label>
+                                                  <label class="container">Zdjęcia
+                                                    <input type="checkbox" checked="checked">
+                                                        <span class="checkmark">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                            </svg>
+                                                        </span>
+                                                  </label>
+                                                  <label class="container">Cena
+                                                    <input type="checkbox" checked="checked">
+                                                        <span class="checkmark">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                            </svg>
+                                                        </span>
+                                                  </label>
+                                                  <label class="container">Logotypy
+                                                    <input type="checkbox" checked="checked">
+                                                        <span class="checkmark">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                            </svg>
+                                                        </span>
+                                                  </label>
+                                                  <label class="container">Piktogramy
+                                                    <input type="checkbox" checked="checked">
+                                                        <span class="checkmark">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                            </svg>
+                                                        </span>
+                                                  </label>
+                                                  <label class="container">Gramatura
+                                                    <input type="checkbox" checked="checked">
+                                                        <span class="checkmark">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                            </svg>
+                                                        </span>
+                                                  </label>
+                                                  <label class="container">Komentarz modułu
+                                                    <input type="checkbox" checked="checked">
+                                                        <span class="checkmark">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                            </svg>
+                                                        </span>
+                                                  </label>
+                                            </div>
+                                            <div class="rightOne">
+                                                <h6>Zasięg akceptacji danych produktu</h6>
+                                                <label class="container">Produkt
+                                                    <input type="checkbox" checked="checked">
+                                                        <span class="checkmark">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                            </svg>
+                                                        </span>
+                                                  </label>
+                                                  <label class="container">Opis
+                                                    <input type="checkbox" checked="checked">
+                                                        <span class="checkmark">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                            </svg>
+                                                        </span>
+                                                  </label>
+                                                  <label class="container">Zdjęcia
+                                                    <input type="checkbox" checked="checked">
+                                                        <span class="checkmark">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                            </svg>
+                                                        </span>
+                                                  </label>
+                                                  <label class="container">Cena
+                                                    <input type="checkbox" checked="checked">
+                                                        <span class="checkmark">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                            </svg>
+                                                        </span>
+                                                  </label>
+                                                  <label class="container">Logotypy
+                                                    <input type="checkbox" checked="checked">
+                                                        <span class="checkmark">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                            </svg>
+                                                        </span>
+                                                  </label>
+                                                  <label class="container">Piktogramy
+                                                    <input type="checkbox" checked="checked">
+                                                        <span class="checkmark">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                            </svg>
+                                                        </span>
+                                                  </label>
+                                                  <label class="container">Gramatura
+                                                    <input type="checkbox" checked="checked">
+                                                        <span class="checkmark">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                            </svg>
+                                                        </span>
+                                                  </label>
+                                                  <label class="container">Komentarz modułu
+                                                    <input type="checkbox" checked="checked">
+                                                        <span class="checkmark">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                            </svg>
+                                                        </span>
+                                                  </label>
+                                            </div>
+                                        </div>
+                                        <div class="lastBeforeButtons">
+                                            <div class="additionalMargin">
+                                                <h6>Blokada edycji modułów po akceptacji</h6>
+                                                    <label class="container">Zablokuj
+                                                        <input type="checkbox" checked="checked">
+                                                            <span class="checkmark">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                                    <path d="M13.7086 0.292969C14.0992 0.683594 14.0992 1.31797 13.7086 1.70859L5.70859 9.70859C5.31797 10.0992 4.68359 10.0992 4.29297 9.70859L0.292969 5.70859C-0.0976562 5.31797 -0.0976562 4.68359 0.292969 4.29297C0.683594 3.90234 1.31797 3.90234 1.70859 4.29297L5.00234 7.58359L12.2961 0.292969C12.6867 -0.0976562 13.3211 -0.0976562 13.7117 0.292969H13.7086Z" fill="white"/>
+                                                                </svg>
+                                                            </span>
+                                                      </label>
+                                            </div>
+                                        </div>
+                                        <div class="buttons">
+                                            <button class="button cancel">Anuluj</button>
+                                            <button class="button accept">Zapisz</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
