@@ -42,7 +42,7 @@ body {
 }
 
 .counter-popup {
-    height: 410px;
+    height: 451px;
     width: 320px;
     padding: 40px 32px 30px;
     align-items: center;
@@ -73,9 +73,18 @@ h3 {
     text-align: center;
 }
 
+h6 {
+    color: #303a46;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 4px;
+    padding: 0 15px;
+}
+
 .middle-part-popup {
-    margin-top: 25px;
-    align-items: center;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -95,19 +104,17 @@ h3 {
 
 .order-name1 {
     height: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .order-name2 {
     height: 60px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .order-name3 {
     height: 30px;
 }
-
-
 
 input {
     outline: none;
