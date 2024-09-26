@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     color: #1d1d1d;
-    font-family: Open Sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 1.428571429;
 }
@@ -65,7 +65,7 @@ body {
 
 h3 {
     color: #303a46;
-    font-family: Open Sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
@@ -126,9 +126,15 @@ svg:not(:root) {
 }
 
 button {
-    cursor: pointer;
+    /* cursor: pointer;
     transition: .2s ease-out !important;
     font: inherit;
+    margin: 0; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s ease-out !important;
     margin: 0;
 }
 
@@ -137,7 +143,7 @@ button {
     border: 1px solid #e7e7e7;
     color: #212529;
     border-radius: 50px;
-    font-family: Open Sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: 600;
     height: 35px;
@@ -150,7 +156,7 @@ button {
     color: #fff;
     border: none;
     border-radius: 50px;
-    font-family: Open Sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: 600;
     height: 35px;

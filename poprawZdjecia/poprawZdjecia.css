@@ -170,7 +170,7 @@ input {
 }
 
 .nazwaOpis {
-    width: 90px;
+    width: 80px;
 }
 
 h4 {
@@ -200,6 +200,67 @@ h5 {
 
 svg:not(:root) {
     overflow: hidden;
+}
+
+.AddRemove {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.checkmark svg {
+    display: none;
+}
+
+.container:hover input ~ .checkmark {
+    background-color: #ffffff;
+}
+
+.container input:checked ~ .checkmark {
+    background-color: #55AF94;
+}
+
+.container input:checked ~ .checkmark svg {
+    display: block;
+}
+
+.yellowSign {
+    background-color: #F8AC59;
+    color:#fff;
+    padding: 4px 8px;
+    border-radius: 6px;
+    margin-top: 10px;
+
 }
 
 .buttons {
